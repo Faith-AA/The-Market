@@ -20,12 +20,12 @@
     1. open a terminal and open ``..\The Market\src``.
     2. type ``npm install`` in the terminal.
     3. Create a ``.env`` file inside the src folder and type the following:
-        - ```TOKEN=
-        -    ownerID=
-        -    MONGO_NAME=
-        -    MONGO_PASS=
-        -    MONGO_HOST=
-        -    IEX_API_KEY=```
+        - TOKEN=
+        - ownerID=
+        - MONGO_NAME=
+        - MONGO_PASS=
+        - MONGO_HOST=
+        - IEX_API_KEY=
     4. Create a [Discord Application](https://discord.com/developers/applications) and create a bot. Then you copy the token and paste it under token in the ``.env`` file.
     5. The ownerID value is optional, but you can enter your discord ID.
     6. Create a MONGO database and fill ``MONGO_NAME``, ``MONGO_PASS`` and ``MONGO_HOST``.
